@@ -3,4 +3,4 @@ This is a visualizer for different sorting algorithms like Bubble Sort, Insertio
 At school we learned about different sorting algorithms, the problem though is that it was too theoretical and I wanted to build something that can help 
 visualize them in action. Hope this will help someone who is struggling with this concept.
 
-You can try it here https://github.com/NembotJules/Sorting-Visualizer
+You can try it here https://nembotjules.github.io/Sorting-Visualizer/
