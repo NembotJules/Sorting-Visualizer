@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <div>
+                    <button id="newArray"> New Array</button>
+                </div>
+    
+                <div class="inputContainer">
+                    <span> Size
+                        <input id="sizeInput" type="range" min="15" max="100" step=1 value=60>
+                    </span>
+    
+                    <span> Speed
+                        <input id="speedInput" type="range" min="20" max="300" stepDown=10 value=60>
+                    </span>
+                </div>
+    
+                <div>
+                    <button type="button" class="bubbleSort">Bubble Sort</button>
+                    <button type="button" class="insertionSort">Insertion Sort</button>
+                    <button type="button" class="quickSort">Quick Sort</button>
+                    <button type="button" class="mergeSort">Merge Sort</button>
+                </div>
+            </div>
+           
+           
+        </nav>
+    </header>
+
+    <div class="barsContainer" id="barsContainer"></div>
+    <div class="algoInfo" id="algoInfo"></div>
+
+    <script src="main.js"></script>
+    <script src="insertionSort.js"></script>
+    <script src="bubbleSort.js"></script>
+    <script src="quickSort.js"></script>
+    <script src="mergeSort.js"></script>
+</body>
+</html>
